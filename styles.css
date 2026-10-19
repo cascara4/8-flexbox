@@ -1,0 +1,29 @@
+html {
+    background-color: antiquewhite ;
+}
+
+body{
+    margin: 0;
+}
+
+.site-links {
+    background-color: ghostwhite;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.site-link {
+    background-color: rgb(129, 205, 208);
+    padding: 10px;
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.site-link:hover {
+    background-color: cadetblue;
+}
