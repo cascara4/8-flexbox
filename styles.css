@@ -1,29 +1,52 @@
 html {
     background-color: antiquewhite ;
+    font-family: "space grotesk";
 }
 
 body{
     margin: 0;
 }
 
-.site-links {
-    background-color: ghostwhite;
-    list-style-type: none;
+.site-header {
+    background-color: lightpink;
     padding: 10px;
+}
+
+.sidebar {
+    background-color: chartreuse;
+    padding: 10px;
+    flex: 0 0 200px
+
+}
+
+.site-main {
+    background-color: rgb(246, 232, 108);
+    padding: 10px;
+
+}
+
+.site-footer {
+    background-color: rgb(220, 193, 233);
+    padding: 10px;
+
+}
+
+.two-column {
     display: flex;
-    gap: 15px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.site-link {
-    background-color: rgb(129, 205, 208);
-    padding: 10px;
-    color: azure;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 10px;
-    display: inline-block;
+.wrapper {
+    background-color: aliceblue;
+    max-width: 700px;
+    margin: 25px auto 0 auto;
 }
 
-.site-link:hover {
-    background-color: cadetblue;
+.site-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
 }
